@@ -1,0 +1,56 @@
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.block {
+  flex: 1;
+  padding: 20px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.block img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.info-block {
+  text-align: center;
+}
+
+.events-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-block {
+  text-align: justify;
+}
+
+.map-block {
+  text-align: center;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.about-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-text h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

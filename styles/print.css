@@ -1,0 +1,14 @@
+body {
+  display: none;
+}
+
+@media print {
+  body {
+    display: block;
+  }
+
+  header,
+  footer {
+    display: none;
+  }
+}
